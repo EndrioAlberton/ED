@@ -7,7 +7,7 @@ char caractere;
 
 FILE *txt;
 
-if((txt = fopen("c:\\arquivo.txt","r")) == NULL)
+if((txt = fopen("arquivo_texto.txt","r")) == NULL)
     {
         printf("Erro ao abrir arquivo");
     }
